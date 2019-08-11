@@ -13,3 +13,7 @@ spring:
       min-idle: 5
       max-active: 20
       max-wait: 1000
+application:
+  config:
+    auth:
+      - /UserService/api/v1/loginByPassword
