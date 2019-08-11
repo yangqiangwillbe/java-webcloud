@@ -20,4 +20,4 @@ application:
       path-patterns:
         - /**
       exclude-path-patterns:
-        - /UserService/api/v1/loginByPassword
+        - /api/v1/loginByPassword
