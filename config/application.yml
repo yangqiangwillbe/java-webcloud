@@ -16,6 +16,7 @@ spring:
 application:
   config:
     auth:
+      enabled: true
       path-patterns:
         - /UserService/**
       exclude-path-patterns:
