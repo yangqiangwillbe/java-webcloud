@@ -16,4 +16,7 @@ spring:
 application:
   config:
     auth:
-      - /UserService/api/v1/loginByPassword
+      path-patterns:
+        - /UserService/**
+      exclude-path-patterns:
+        - /UserService/api/v1/loginByPassword
