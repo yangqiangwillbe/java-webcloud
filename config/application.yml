@@ -18,6 +18,6 @@ application:
     auth:
       enabled: true
       path-patterns:
-        - /UserService/**
+        - /**
       exclude-path-patterns:
         - /UserService/api/v1/loginByPassword
