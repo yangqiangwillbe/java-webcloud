@@ -14,13 +14,15 @@ spring:
       max-active: 20
       max-wait: 1000
   redisson:
-    clusterServersConfig:
-      - redis://localhost:7000
-      - redis://localhost:7001
-      - redis://localhost:7002
-      - redis://localhost:7003
-      - redis://localhost:7004
-      - redis://localhost:7005
+    cluster:
+      nodes:
+        - redis://localhost:7000
+        - redis://localhost:7000
+        - redis://localhost:7001
+        - redis://localhost:7002
+        - redis://localhost:7003
+        - redis://localhost:7004
+        - redis://localhost:7005
 application:
   config:
     auth:
